@@ -71,3 +71,48 @@ body{
   margin:0 auto;
   padding:1rem;
 }
+/* === Patriotic background accents (NO layout changes) === */
+
+/* Page background */
+body {
+  background: #f5f6fa;
+}
+
+/* Header background accent */
+.site-header {
+  background: linear-gradient(
+    90deg,
+    #bf0a30 0%,
+    #ffffff 50%,
+    #002868 100%
+  );
+}
+
+/* Hero background */
+.hero {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(0, 40, 104, 0.08),
+      rgba(191, 10, 48, 0.08)
+    );
+}
+
+/* Alternate section background only */
+.section.alt {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(191, 10, 48, 0.05),
+      rgba(0, 40, 104, 0.05)
+    );
+}
+
+/* Footer background */
+.footer {
+  background: linear-gradient(
+    90deg,
+    #002868 0%,
+    #bf0a30 100%
+  );
+}
