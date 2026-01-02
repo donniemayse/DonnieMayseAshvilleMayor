@@ -547,3 +547,28 @@ input:focus, textarea:focus{
 .site-header a:hover{
   background: rgba(255,255,255,.15);
 }
+
+
+/* === Header logo + larger campaign name === */
+.brand{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+
+.brand-logo{
+  height:56px;
+  width:auto;
+}
+
+.brand-title{
+  font-size:1.9rem;
+  font-weight:900;
+  line-height:1.1;
+}
+
+.brand-subtitle{
+  font-size:1.1rem;
+  font-weight:700;
+  letter-spacing:.5px;
+}
