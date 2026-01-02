@@ -549,26 +549,27 @@ input:focus, textarea:focus{
 }
 
 
-/* === Header logo + larger campaign name === */
-.brand{
-  display:flex;
-  align-items:center;
-  gap:14px;
+/* === Header logo + larger campaign name (override) === */
+.site-header .brand{
+  display:flex !important;
+  align-items:center !important;
+  gap:14px !important;
 }
 
-.brand-logo{
-  height:56px;
-  width:auto;
+.site-header .brand-logo{
+  height:64px !important;
+  width:auto !important;
+  display:block !important;
 }
 
-.brand-title{
-  font-size:1.9rem;
-  font-weight:900;
-  line-height:1.1;
+.site-header .brand-title{
+  font-size:2.1rem !important;
+  font-weight:900 !important;
+  line-height:1.05 !important;
 }
 
-.brand-subtitle{
-  font-size:1.1rem;
-  font-weight:700;
-  letter-spacing:.5px;
+.site-header .brand-subtitle{
+  font-size:1.2rem !important;
+  font-weight:800 !important;
+  letter-spacing:.6px !important;
 }
